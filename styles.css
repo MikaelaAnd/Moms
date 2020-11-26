@@ -2,8 +2,15 @@ body {
     margin: 0;
 }
 
-.character {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.active {
+    color: cadetblue;
+    font-weight: bold;
 }

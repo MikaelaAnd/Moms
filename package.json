@@ -2,11 +2,14 @@
   "name": "typescript1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "code.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx tsc -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.1.2"
+  }
 }

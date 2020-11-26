@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./dist/code.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./dist/code.js"></script>
 </head>
+
 <body>
-    <h1>Hello earth</h1>
+    <main class="flex column">
+<label for="buttons">Momssats</label>
+<div>
+    <button class="active" id="moms-25">25%</button>
+    <button id="moms-12">12%</button>
+    <button id="moms-6">6%</button>
+</div>
+
+        <label for="inc-moms">Inklusive moms (kr)</label>
+        <input type="text" id="inc-moms" name="inc-moms">
+        <label for="ex-moms">Exklusive moms (kr)</label>
+        <input type="text" id="ex-moms" name="ex-moms">
+        <label for="sum-moms">Momssumma (kr)</label>
+        <input disabled type="text" id="sum-moms" name="sum-moms">
+    </main>
 </body>
+
 </html>
