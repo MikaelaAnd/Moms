@@ -76,5 +76,4 @@ function updateButtonsUI(event: MouseEvent) {
 
     const button = event.target as HTMLButtonElement;
     button.classList.add('active');
-
 }
